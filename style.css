@@ -56,3 +56,6 @@ main p {
   color: beige;
   
 }
+#container {
+  display: inline-grid;
+}
