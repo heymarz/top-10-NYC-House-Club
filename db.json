@@ -1,0 +1,104 @@
+{
+  "venues": [
+    {
+      "id": 1,
+      "likes": 10,
+      "name": "Lavo Nightclub",
+      "year": 2010,
+      "image": "https://i.imgur.com/3SGtCYk.jpg",
+      "max_capacity": 800,
+      "type_of_venue": "Indoors only",
+      "cool_factor": "GoGo Dancers & great speaker and light system"
+    },
+    {
+      "id": 2,
+      "likes": 10,
+      "name": "1Oak",
+      "year": 2008,
+      "image": "https://i.imgur.com/tZ2mKQV.jpg",
+      "max_capacity": 350,
+      "type_of_venue": "Indoors only",
+      "cool_factor": "Celebrity HotSpot, 2 dance levels, mostly rap, hiphop"
+    },
+    {
+      "id": 3,
+      "likes": 10,
+      "name": "Nebula",
+      "year": 2020,
+      "image": "https://imgur.com/YmcASwf.jpeg",
+      "max_capacity": 700,
+      "type_of_venue": "Indoors only",
+      "cool_factor": "Heart of Time square"
+    },
+    {
+      "id": 4,
+      "likes": 13,
+      "name": "Marquee NY",
+      "year": 2020,
+      "image": "https://imgur.com/32vffOY.jpg",
+      "max_capacity": 700,
+      "type_of_venue": "Indoors only",
+      "cool_factor": "3 dance levels, decked out light system, full LCD wall"
+    },
+    {
+      "id": 5,
+      "likes": 10,
+      "name": "Webster Hall",
+      "year": 1886,
+      "image": "https://imgur.com/eaRrwon.jpg",
+      "max_capacity": 1400,
+      "type_of_venue": "Indoors only",
+      "cool_factor": "New York's historial building houses 4 dance floors each with its own stage"
+    },
+    {
+      "id": 6,
+      "likes": 10,
+      "name": "Harbor NYC Rooftop",
+      "year": 2021,
+      "image": "https://imgur.com/GhKnsDs.jpg",
+      "max_capacity": 400,
+      "type_of_venue": "Indoors only",
+      "cool_factor": "Retractable glass roof, party by the view overlooking the Hudson River"
+    },
+    {
+      "id": 7,
+      "likes": 10,
+      "name": "Good Room",
+      "year": 2014,
+      "image": "https://imgur.com/LHsEXEN.jpg",
+      "max_capacity": 800,
+      "type_of_venue": "Indoors only",
+      "cool_factor": "3 dance rooms with epic sounds and epic lighting with 2 dj booths and one stage"
+    },
+    {
+      "id": 8,
+      "likes": 10,
+      "name": "House of YES",
+      "year": 2013,
+      "image": "https://imgur.com/8gdOpXs.jpg",
+      "max_capacity": 475,
+      "type_of_venue": "Indoors only",
+      "cool_factor": "Werid. Wild. Not like the rest! Instead of just GoGo dancers, they have circus or theather acts which is cool within itself!"
+    },
+    {
+      "id": 9,
+      "likes": 10,
+      "name": "Brooklyn Hangar",
+      "year": 2012,
+      "image": "https://imgur.com/xHtAMHK.jpg",
+      "max_capacity": 3000,
+      "type_of_venue": "Indoor and Outdoor Combo",
+      "cool_factor": "That highceiling vibe when the lights hits ya."
+    },
+    {
+      "id": 10,
+      "likes": 10,
+      "name": "Brooklyn Mirage AKA Avant Gardner",
+      "year": 2017,
+      "image": "https://imgur.com/46Z8YnP.jpg",
+      "max_capacity": 6000,
+      "type_of_venue": "Indoor and Outdoor Combo",
+      "cool_factor": "Open courtyard feature wtih network of catwalks with an iconic city skyline"
+    }
+  ]
+}
