@@ -22,7 +22,7 @@
     },
     {
       "id": 3,
-      "likes": 10,
+      "likes": 12,
       "name": "Nebula",
       "year": 2020,
       "image": "https://imgur.com/YmcASwf.jpeg",
@@ -52,7 +52,7 @@
     },
     {
       "id": 6,
-      "likes": 10,
+      "likes": 16,
       "name": "Harbor NYC Rooftop",
       "year": 2021,
       "image": "https://imgur.com/GhKnsDs.jpg",
@@ -92,7 +92,7 @@
     },
     {
       "id": 10,
-      "likes": 10,
+      "likes": 11,
       "name": "Brooklyn Mirage AKA Avant Gardner",
       "year": 2017,
       "image": "https://imgur.com/46Z8YnP.jpg",
