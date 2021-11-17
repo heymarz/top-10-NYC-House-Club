@@ -1,4 +1,3 @@
-let venueArray=[];
 let infoContainer = document.querySelector("#infoContainer");
 
 //event listenter 1: load page with DOM 
@@ -22,12 +21,13 @@ function loadImages(){
 function addName(venue){
   const h3 = document.createElement("h3");
   h3.innerText =venue.name; 
+  infoContainer.append(h3)
 }
 
 function addImage(venue){
   let img = document.createElement("img");
   img.src = venue.image;
-  img.width = 500;
+  img.width = 600;
   //event listener 2: hidden feat of info about club 
   img.addEventListener("click", flipIt)
   let div = document.createElement("div")
@@ -43,12 +43,16 @@ function addImage(venue){
   infoContainer.append(img)
 }
 
+//toggling between 2 classes 
   function flipIt(event) {
   let targetId = event.target.firstChild
   if(targetId.className === "hidden"){
-    return targetId.className = "show"
+    //does it not display the div?
+    console.log("yes")
+    targetId.className = "show"
   }else{
-    return targetId.className = "hidden"
+    console.log("no")
+    targetId.className = "hidden"
     }
   }
 
@@ -67,8 +71,6 @@ function likebutton(venue){
 } 
 
 function updateLikes(e){
-  //prevent refreshing page
-  e.preventDefault();
   let more = parseInt(e.target.previousElementSibling.innerText) + 1
 
   fetch(`http://localhost:3000/venues/${e.target.id}`, {

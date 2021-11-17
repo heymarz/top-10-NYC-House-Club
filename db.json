@@ -2,7 +2,7 @@
   "venues": [
     {
       "id": 1,
-      "likes": 24,
+      "likes": 25,
       "name": "Lavo Nightclub",
       "year": 2010,
       "image": "https://i.imgur.com/3SGtCYk.jpg",
@@ -12,7 +12,7 @@
     },
     {
       "id": 2,
-      "likes": 17,
+      "likes": 19,
       "name": "1Oak",
       "year": 2008,
       "image": "https://i.imgur.com/tZ2mKQV.jpg",
@@ -32,7 +32,7 @@
     },
     {
       "id": 4,
-      "likes": 13,
+      "likes": 20,
       "name": "Marquee NY",
       "year": 2020,
       "image": "https://imgur.com/32vffOY.jpg",
@@ -62,7 +62,7 @@
     },
     {
       "id": 7,
-      "likes": 19,
+      "likes": 20,
       "name": "Good Room",
       "year": 2014,
       "image": "https://imgur.com/LHsEXEN.jpg",

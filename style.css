@@ -1,6 +1,7 @@
 header {
   background-image: url("https://imgur.com/nwp1nmi.jpg");
   background-size: cover;
+  text-align: center;
 }
 body{
   background-color: black;
@@ -10,7 +11,6 @@ body{
 h1 {
   color: #c6e2ff;
   font-size: 50px;
-  
   letter-spacing: 5px;
   animation: neon .08s ease-in-out infinite alternate;
   height: 2rem;
@@ -42,21 +42,36 @@ h3 {
   color: beige;
   padding: 1rem;
 }
-
-main p {
+#instructions{
   color: beige;
+  text-align:center;
+  font-size: 20px;
 }
-button{
-  display: center;
-  margin: 10px 50px 50px 50%;
-  float:left;
+
+ #infoContainer{
+  color: gold
+  text-align:center;
+
 }
+
+/* button to center with a lower padding of 50 px */
+
 
 .hidden {
   display: none;
 }
+
 .show {
   display: block;
   color: beige;
-  /* text float on the side of img */
+  
+}
+button{
+  font-size: 20px;
+  float: none;
+  clear: both
+}
+img{
+  align:bottom;
+  clear: both
 }
