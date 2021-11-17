@@ -4,7 +4,7 @@ header {
 }
 body{
   background-color: black;
-  text-align: center;
+  display: center;
 }
 
 h1 {
@@ -43,19 +43,20 @@ h3 {
   padding: 1rem;
 }
 
-form {
-  padding: 0 0 35px 0;
-}
-
-select {
-  text-align: center;
-  text-align-last: center;
-}
-
 main p {
   color: beige;
-  
 }
-#container {
-  display: inline-grid;
+button{
+  display: center;
+  margin: 10px 50px 50px 50%;
+  float:left;
+}
+
+.hidden {
+  display: none;
+}
+.show {
+  display: block;
+  color: beige;
+  /* text float on the side of img */
 }

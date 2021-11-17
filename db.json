@@ -2,7 +2,7 @@
   "venues": [
     {
       "id": 1,
-      "likes": 10,
+      "likes": 24,
       "name": "Lavo Nightclub",
       "year": 2010,
       "image": "https://i.imgur.com/3SGtCYk.jpg",
@@ -12,7 +12,7 @@
     },
     {
       "id": 2,
-      "likes": 10,
+      "likes": 17,
       "name": "1Oak",
       "year": 2008,
       "image": "https://i.imgur.com/tZ2mKQV.jpg",
@@ -22,7 +22,7 @@
     },
     {
       "id": 3,
-      "likes": 12,
+      "likes": 15,
       "name": "Nebula",
       "year": 2020,
       "image": "https://imgur.com/YmcASwf.jpeg",
@@ -42,7 +42,7 @@
     },
     {
       "id": 5,
-      "likes": 10,
+      "likes": 12,
       "name": "Webster Hall",
       "year": 1886,
       "image": "https://imgur.com/eaRrwon.jpg",
@@ -62,17 +62,17 @@
     },
     {
       "id": 7,
-      "likes": 10,
+      "likes": 19,
       "name": "Good Room",
       "year": 2014,
       "image": "https://imgur.com/LHsEXEN.jpg",
       "max_capacity": 800,
       "type_of_venue": "Indoors only",
-      "cool_factor": "3 dance rooms with epic sounds and epic lighting with 2 dj booths and one stage"
+      "cool_factor": "3 dance rooms with epic sound system and epic lighting with 2 dj booths and one stage"
     },
     {
       "id": 8,
-      "likes": 10,
+      "likes": 14,
       "name": "House of YES",
       "year": 2013,
       "image": "https://imgur.com/8gdOpXs.jpg",
@@ -82,7 +82,7 @@
     },
     {
       "id": 9,
-      "likes": 10,
+      "likes": 12,
       "name": "Brooklyn Hangar",
       "year": 2012,
       "image": "https://imgur.com/xHtAMHK.jpg",
@@ -92,7 +92,7 @@
     },
     {
       "id": 10,
-      "likes": 11,
+      "likes": 15,
       "name": "Brooklyn Mirage AKA Avant Gardner",
       "year": 2017,
       "image": "https://imgur.com/46Z8YnP.jpg",

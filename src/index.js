@@ -1,7 +1,7 @@
 let venueArray=[];
 let infoContainer = document.querySelector("#infoContainer");
 
-//load page with nothing. just drop down menu
+//event listenter 1: load page with DOM 
 document.addEventListener("DOMContentLoaded", function(){
   loadImages();
 })
@@ -19,45 +19,46 @@ function loadImages(){
   });
 }
 
+function addName(venue){
+  const h3 = document.createElement("h3");
+  h3.innerText =venue.name; 
+}
+
 function addImage(venue){
   let img = document.createElement("img");
   img.src = venue.image;
   img.width = 500;
-//event listener 2: hidden feat of info about club 
+  //event listener 2: hidden feat of info about club 
+  img.addEventListener("click", flipIt)
   let div = document.createElement("div")
-  div.setAttribute("class", "myDiv")
-  div.innerText = venue.year
-  img.setAttribute("onclick", onclick="myfunction()")
+  div.setAttribute("class", "hidden")
+  div.innerHTML = `
+    <h5>Name: ${venue.name}</h5>
+    <p>Est since: ${venue.year}</p>
+    <p>Maximum Capacity: ${venue.max_capacity}</p>
+    <p>Type of venue: ${venue.type_of_venue}</p>
+    <p>Reason why you should visit: ${venue.cool_factor}</p>
+  `;
   img.append(div)
   infoContainer.append(img)
+}
+
+  function flipIt(event) {
+  let targetId = event.target.firstChild
+  if(targetId.className === "hidden"){
+    return targetId.className = "show"
+  }else{
+    return targetId.className = "hidden"
+    }
   }
 
-  //HOW TO SELECT THE DIV THAT IS BEING CLICKED ON
-function myfunction(){
-  const div = document.getElementsByClassName("myDiv")
- if (e.div.style.display === "none") {
-  e.div.style.display = "block";
-    } else {
-      e.div.style.display = "none";
-      }
-    }
-
-function addName(venue){
-  const h3 = document.createElement("h3");
-  h3.innerText =venue.name; 
-  infoContainer.append(h3)
-}
-  //select contatiner where element will go
-  //create an html element that the innertext of the name
- //append the element to the container 
-
+//event listener 3: like button w display of likes next to it
 function likebutton(venue){
   const heartButton = document.createElement("button")
   const p = document.createElement("p")
   p.innerText=`${venue.likes} people liked this venue`
+  p.style.display = "inline block"
   heartButton.innerText = "♥ Like Me";
-  heartButton.setAttribute("class", venue.type_of_venue)
-  
   heartButton.setAttribute("id", venue.id) 
   heartButton.addEventListener("click", (e) => {
   updateLikes(e)
@@ -65,7 +66,6 @@ function likebutton(venue){
   infoContainer.append(p, heartButton)
 } 
 
-//event listener 3: like button w display of likes next to it
 function updateLikes(e){
   //prevent refreshing page
   e.preventDefault();
@@ -81,20 +81,8 @@ function updateLikes(e){
       "likes": more
     })
   })
-.then(resp =>console.log(resp.json()))
+.then(resp =>resp.json())
 .then(like_obj=>{
   e.target.previousElementSibling.innerText = `${more} people liked this venue`
 })
 }
-
-
-
-
-/*
-//event listener 1: when form submits(dropdown menu), fetch the option submitted
-//display the clubs that correlates to option value 
-*/
-
-
-
-
